@@ -1,0 +1,133 @@
+body{
+    font-family: arial;
+    background: url("cool.jpg");
+}
+
+.container{
+    width: 60vh;
+    height: 80vh;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    backdrop-filter: blue(5px);
+}
+
+.login{
+    color: aqua;
+    font-size: 50px;
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    margin-top: 25px;
+    text-align: center;
+    border: 2px solid aqua;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    color: aqua;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+i{
+    color: aqua;
+    font-size: 25px;
+}
+.rem-forgot{
+    color: #fff;
+    margin: 25px;
+}
+
+.rem-forgot label{
+    margin-right: 60px;
+}
+
+.rem-forgot label input{
+    margin-right: 5px;
+}
+
+.rem-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.rem-forgot a:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: aqua;
+    cursor: pointer;
+    transition: .5 ease;
+}
+
+.submit:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
+.submit:active{
+    box-shadow: 0 0 5px aqua,
+    0 0 10px aqua,
+    0 0 15px aqua;
+}
+
+.register{
+    color: #fff;
+    font-weight: bold;
+}
+
+.register a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.register a:hover{
+    text-decoration: underline;
+}
+
+
+.head{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.signup{
+    width: 200px;
+    height: 70px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background: aqua;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .5 ease;
+}
+
+.signup:hover{
+    box-shadow: 0 0 5px aqua,
+    0 0 10px aqua,
+    0 0 15px aqua;
+}
+
+.signup:active{
+    box-shadow: 0 0 25px aqua;
+}
